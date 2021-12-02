@@ -27,4 +27,12 @@ available on the file descriptor one line at a time until the end of it.</li>
   <li>Global variables are forbidden.</li>
   <li>Important: The returned line should include the ’\n’, except if you have reached the end of file and there is no ’\n’.</li>
   </ul></div>
- 
+
+## Bonus Part
+The project get_next_line is straightforward and leaves very little room for bonuses, but we are sure that you have a lot of imagination. If you have aced the mandatory part, then by all means, complete this bonus part to go further. Just to be clear, no bonuses will be taken into consideration if the mandatory part isn’t perfect.Turn-in all 3 mandatory files ending by _bonus.[c\h] for this part.
+<div>
+  <ul>
+  <li>To succeed get_next_line with a single static variable.</li>
+    <li>To be able to manage multiple file descriptors with your get_next_line. For example, if the file descriptors 3, 4 and 5 are accessible for reading, then you can call get_next_line once on 3, once on 4, once again on 3 then once on 5 etc. without losing the reading thread on each of the descriptors.</li>
+  </ul>
+</div>
