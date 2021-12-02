@@ -10,6 +10,7 @@ available on the file descriptor one line at a time until the end of it.</li>
   <li>Make sure that your function behaves well when it reads from a file and when it reads from the standard input.</li>
   <li>libft is not allowed for this project. You must add a get_next_line_utils.c file which will contain the functions that are needed for your get_next_line to work.</li>
  </ul></div>
+ 
 ## Compilation
   For the evaluation your program will be compiled in this way:
   ```bash
