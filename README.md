@@ -36,3 +36,7 @@ The project get_next_line is straightforward and leaves very little room for bon
     <li>To be able to manage multiple file descriptors with your get_next_line. For example, if the file descriptors 3, 4 and 5 are accessible for reading, then you can call get_next_line once on 3, once on 4, once again on 3 then once on 5 etc. without losing the reading thread on each of the descriptors.</li>
   </ul>
 </div>
+
+## How do the code works
+  My get_next_line function works with 3 central functions and some utility functions to help the program:
+  
