@@ -1,0 +1,7 @@
+heloo world!
+
+
+this is a test text, just trying some shit         
+         
+
+end of file
