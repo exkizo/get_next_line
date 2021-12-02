@@ -18,11 +18,4 @@ available on the file descriptor one line at a time until the end of it.</li>
   Which will be used as the buffer size for the read calls in your get_next_line. This value will be modified by your evaluators and by the moulinette.
   Your read must use the BUFFER_SIZE defined during compilation to read from a file or from stdin. This value will be modified during the evaluation for testing purposes.
   In the header file get_next_line.h you must have at least the prototype of the function get_next_line.
-  
-  
-  <li>Your program must compile with the ```bash flag -D BUFFER_SIZE=xx ``` which will be used as the buffer size for the read calls in your get_next_line. This value will be modified by your evaluators and by the moulinette.</li>
-  <li>The program will be compiled in this way: cc -Wall -Wextra -Werror -D BUFFER_SIZE=42 <files>.c.</li>
-  <li>Your read must use the BUFFER_SIZE defined during compilation to read from a file or from stdin. This value will be modified during the evaluation for testing purposes.</li>
-  <li>In the header file get_next_line.h you must have at least the prototype of the function get_next_line.</li>
-</ul>
-
+ 
