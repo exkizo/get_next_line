@@ -46,4 +46,7 @@ Turn-in all 3 mandatory files ending by _bonus.[c\h] for this part.
  * [`get_line`](get_next_line/get_next_line.c) -this function iterates the returned string from ```read_line``` and looks for a '/n'(end of a line) and return a line.
  
  *  [`get_line`](get_next_line/get_next_line.c) -this function iterates the returned string from ```read_line``` and returns the string after the '/n' (end of the line) so it can be used on the next time the function ```get_next_line``` is called.
-  
+### Utility functions:
+* [`ft_strjoin`](libft/ft_strjoin.c)      -allocates (with malloc(3)) and returns a new string, which is the result of the concatenation of ’s1’ and ’s2’.
+* [`ft_strlen`](libft/ft_strlen.c)        -calculate the length of a string
+* [`check_line`](get_next_line/get_next_line_utils.c)        -calculate the length of a string
