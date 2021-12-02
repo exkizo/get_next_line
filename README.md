@@ -1,5 +1,4 @@
-# get_next_line
-<h1> Reading a line on a fd is way too tedious </h1>
+# get_next_line Reading a line on a fd is way too tedious
 <p>The goal of this project is to create a function that reads a file descriptor and returns a line.</p>
 <ul>
   <li>Calling your function get_next_line in a loop will then allow you to read the text
