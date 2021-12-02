@@ -30,8 +30,8 @@ available on the file descriptor one line at a time until the end of it.</li>
 
 ## Bonus Part
 The project get_next_line is straightforward and leaves very little room for bonuses, but we are sure that you have a lot of imagination.<br>
-If you have aced the mandatory part, then by all means, complete this bonus part to go further.
-Just to be clear, no bonuses will be taken into consideration if the mandatory part isn’t perfect.
+If you have aced the mandatory part, then by all means, complete this bonus part to go further.<br>
+Just to be clear, no bonuses will be taken into consideration if the mandatory part isn’t perfect.<br>
 Turn-in all 3 mandatory files ending by _bonus.[c\h] for this part.
 <div>
   <ul>
