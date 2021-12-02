@@ -1,4 +1,7 @@
 # get_next_line
+```c
+  char *get_next_line(int fd);
+```
 <p>The goal of this project is to create a function that reads a file descriptor and returns a line.</p>
 <ul>
   <li>Calling your function get_next_line in a loop will then allow you to read the text
