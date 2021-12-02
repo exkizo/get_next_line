@@ -32,8 +32,8 @@ available on the file descriptor one line at a time until the end of it.</li>
 Turn-in all 3 mandatory files ending by _bonus.[c\h] for this part.
 <div>
   <ul>
-  <li>To succeed get_next_line with a single static variable.</li>
-    <li>To be able to manage multiple file descriptors with your get_next_line. For example, if the file descriptors 3, 4 and 5 are accessible for reading, then you can call get_next_line once on 3, once on 4, once again on 3 then once on 5 etc. without losing the reading thread on each of the descriptors.</li>
+  <li>To succeed get_next_line with the bonus you need to use just one static variable.</li>
+    <li>Also you need to be able to manage multiple file descriptors with your get_next_line. For example, if the file descriptors 3, 4 and 5 are accessible for reading, then you can call get_next_line once on 3, once on 4, once again on 3 then once on 5 etc. without losing the reading thread on each of the descriptors.</li>
   </ul>
 </div>
 
