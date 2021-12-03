@@ -1,0 +1,6 @@
+text2text2            text2
+text2line2      text2lin2
+
+txt2line4
+
+end of text 2.
