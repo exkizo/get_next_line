@@ -6,15 +6,11 @@
 /*   By: jocorrei <jocorrei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/18 15:52:23 by jocorrei          #+#    #+#             */
-/*   Updated: 2021/12/02 15:46:55 by jocorrei         ###   ########.fr       */
+/*   Updated: 2021/12/08 15:55:11 by jocorrei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #ifndef GET_NEXT_LINE_BONUS_H
 # define GET_NEXT_LINE_BONUS_H
-
-# ifndef BUFFER_SIZE
-#  define BUFFER_SIZE 5
-# endif
 
 # include <unistd.h>
 # include <stdlib.h>

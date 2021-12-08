@@ -6,14 +6,14 @@
 /*   By: jocorrei <jocorrei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/18 15:52:23 by jocorrei          #+#    #+#             */
-/*   Updated: 2021/12/02 15:47:10 by jocorrei         ###   ########.fr       */
+/*   Updated: 2021/12/08 15:57:10 by jocorrei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #ifndef GET_NEXT_LINE_H
 # define GET_NEXT_LINE_H
 
 # ifndef BUFFER_SIZE
-#  define BUFFER_SIZE 5
+#  define BUFFER_SIZE 10
 # endif
 
 # include <unistd.h>

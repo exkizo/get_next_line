@@ -1,15 +1,15 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line.c                                    :+:      :+:    :+:   */
+/*   get_next_line_bonus.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jocorrei <jocorrei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/18 15:52:17 by jocorrei          #+#    #+#             */
-/*   Updated: 2021/12/02 15:31:11 by jocorrei         ###   ########.fr       */
+/*   Updated: 2021/12/08 15:44:07 by jocorrei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 char	*clear_box(char	*str)
 {
@@ -47,7 +47,7 @@ char	*get_line(char *str)
 	if (*str == '\0')
 		return (NULL);
 	i = find_end_line(str);
-	line = (char *)malloc(i + 1);
+	line = (char *)malloc(i + 2);
 	if (!line)
 		return (NULL);
 	while (i--)

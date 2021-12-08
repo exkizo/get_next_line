@@ -6,7 +6,7 @@
 /*   By: jocorrei <jocorrei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/18 15:52:17 by jocorrei          #+#    #+#             */
-/*   Updated: 2021/12/02 15:30:50 by jocorrei         ###   ########.fr       */
+/*   Updated: 2021/12/08 15:56:54 by jocorrei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "get_next_line.h"
@@ -47,7 +47,7 @@ char	*get_line(char *str)
 	if (*str == '\0')
 		return (NULL);
 	i = find_end_line(str);
-	line = (char *)malloc(i + 1);
+	line = (char *)malloc(i + 2);
 	if (!line)
 		return (NULL);
 	while (i--)
@@ -77,7 +77,7 @@ char	*get_next_line(int fd)
 	{
 		free(fd_box[fd]);
 		return (NULL);
-	}	
+	}
 	line = get_line(fd_box[fd]);
 	fd_box[fd] = clear_box(fd_box[fd]);
 	return (line);
