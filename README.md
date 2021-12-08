@@ -37,7 +37,7 @@ Turn-in all 3 mandatory files ending by _bonus.[c\h] for this part.
   </ul>
 </div>
 
-## How do the code works
+## How does the code works
   My version of get_next_line function works with 3 main functions and some utility functions to help the program. To handle with the multiple file descriptors problems it was created an array of pointers witch each element contains a pointer to a string.
 ### Main functions:
 * [`read_line`](./get_next_line_utils.c) -this fuction reads into the buffer [BUFFER_SIZE] bytes and checks if it was readed at least one line(if there is a '/n'). While there is less than a line read, it joins to the preview interation using ```ft_strjoin```
