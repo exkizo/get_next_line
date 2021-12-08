@@ -38,7 +38,7 @@ Turn-in all 3 mandatory files ending by _bonus.[c\h] for this part.
 </div>
 
 ## How do the code works
-  My version of get_next_line function works with 3 main functions and some utility functions to help the program. To handle with the multiple file descriptors problems it was created an array of pointers witch each element is contains the address of a pointer to a string.
+  My version of get_next_line function works with 3 main functions and some utility functions to help the program. To handle with the multiple file descriptors problems it was created an array of pointers witch each element contains a pointer to a string.
 ### Main functions:
 * [`read_line`](./get_next_line_utils.c) -this fuction reads into the buffer [BUFFER_SIZE] bytes and checks if it was readed at least one line(if there is a '/n'). While there is less than a line read, it joins to the preview interation using ```ft_strjoin```
  .When it was readed at least one line, the fuction will them free the buffer and return.
@@ -49,5 +49,5 @@ Turn-in all 3 mandatory files ending by _bonus.[c\h] for this part.
 ### Utility functions:
 * [`ft_strjoin`](./get_next_line_utils.c)      -allocates (with malloc(3)) and returns a new string, which is the result of the concatenation of ’s1’ and ’s2’.
 * [`ft_strlen`](./get_next_line_utils.c)        -calculate the length of a string
-* [`check_line`](./get_next_line_utils.c)       -calculate the length of a string
-* [`find_end_line`](./get_next_line_utils.c)       -search for a '\a' and returns the index of it
+* [`check_line`](./get_next_line_utils.c)       -checks if the buffer already have a line 
+* [`find_end_line`](./get_next_line_utils.c)       -search for a '\n' and returns the index of it
